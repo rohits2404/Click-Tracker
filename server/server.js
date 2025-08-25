@@ -2,7 +2,7 @@ import "dotenv/config";
 import express from 'express';
 import { Pool } from "pg";
 import cors from 'cors';
-import setupDatabase from "./scripts/setup-database.js";
+import setupDatabase from "./config/setup-database.js";
 
 const app = express();
 
